@@ -16,29 +16,30 @@ export function Services() {
       image: "/images/auto-parts.png"
     },
     {
+      title: "Repair & Replacement",
+      icon: <Hammer className="h-10 w-10 text-accent" />,
+      description: "Restoration of worn-out engineering components and custom fabrication of replacement parts.",
+      image: "/images/cnc-machine.webp"
+    },
+    {
       title: "Precision Job Work",
       icon: <Ruler className="h-10 w-10 text-accent" />,
       description: "Custom precision machining services tailored to your specific engineering requirements and tolerances.",
-      image: null
+      image: "/images/precisions.jfif"
     },
     {
       title: "CNC & Conventional Machining",
       icon: <Factory className="h-10 w-10 text-accent" />,
       description: "Utilizing both modern CNC technology and conventional methods for versatile manufacturing solutions.",
-      image: null
+      image: "/images/cnc-machine.webp"
     },
     {
       title: "Operations",
       icon: <PenTool className="h-10 w-10 text-accent" />,
       description: "Expert Turning, Milling, Drilling, and Surface Grinding operations executed with high accuracy.",
-      image: null
+      image: "/images/drilling.jfif"
     },
-    {
-      title: "Repair & Replacement",
-      icon: <Hammer className="h-10 w-10 text-accent" />,
-      description: "Restoration of worn-out engineering components and custom fabrication of replacement parts.",
-      image: null
-    }
+
   ];
 
   return (
@@ -60,10 +61,10 @@ export function Services() {
               {service.image && (
                 <div className="h-48 overflow-hidden relative">
                   <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors z-10" />
-                  <img 
-                    src={service.image} 
-                    alt={service.title} 
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500" 
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                   />
                 </div>
               )}

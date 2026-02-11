@@ -14,7 +14,7 @@ export function About() {
               className="relative z-10 w-full h-auto rounded-lg shadow-xl object-cover aspect-[4/3]"
             />
             <div className="absolute bottom-8 right-8 bg-primary text-white p-6 z-20 hidden md:block max-w-xs shadow-lg">
-              <p className="font-heading text-4xl font-bold mb-1">10+</p>
+              <p className="font-heading text-4xl font-bold mb-1">21+</p>
               <p className="text-sm uppercase tracking-wider text-gray-300">Years of Engineering Excellence</p>
             </div>
           </div>

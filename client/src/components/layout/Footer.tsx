@@ -27,8 +27,8 @@ export function Footer() {
             <ul className="space-y-3">
               {['Home', 'About Us', 'Services', 'Machinery', 'Contact'].map((item) => (
                 <li key={item}>
-                  <button 
-                    onClick={() => document.getElementById(item.toLowerCase().replace(' ', ''))?.scrollIntoView({behavior: 'smooth'})}
+                  <button
+                    onClick={() => document.getElementById(item.toLowerCase().replace(' ', ''))?.scrollIntoView({ behavior: 'smooth' })}
                     className="text-gray-300 hover:text-accent transition-colors text-sm flex items-center gap-2"
                   >
                     <span className="w-1 h-1 bg-accent rounded-full"></span>
@@ -57,15 +57,16 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-300 text-sm">
                 <MapPin className="h-5 w-5 text-accent shrink-0 mt-0.5" />
-                <span>[Workshop Address Here]<br />Ahmedabad, Gujarat</span>
+                <span>Rishikesh Building Unit Number 1, Lalit Katta, Dombivli, 421201<br />
+                    <br />Thane, Maharashtra</span>
               </li>
               <li className="flex items-center gap-3 text-gray-300 text-sm">
                 <Phone className="h-5 w-5 text-accent shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 7977664056</span>
               </li>
               <li className="flex items-center gap-3 text-gray-300 text-sm">
                 <Mail className="h-5 w-5 text-accent shrink-0" />
-                <span>info@jaiambeengineering.com</span>
+                <span>jaiambeengg2017@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -76,13 +77,13 @@ export function Footer() {
             © {new Date().getFullYear()} Jai Ambe Engineering. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="bg-white/5 p-2 rounded hover:bg-accent hover:text-white transition-colors text-gray-300">
+            <a href="https://www.facebook.com/share/182ReP3bAK/" className="bg-white/5 p-2 rounded hover:bg-accent hover:text-white transition-colors text-gray-300">
               <Facebook className="h-4 w-4" />
             </a>
-            <a href="#" className="bg-white/5 p-2 rounded hover:bg-accent hover:text-white transition-colors text-gray-300">
+            <a href="https://www.instagram.com/jaiambe_engineering?igsh=eWNtYnY2NGFjeXNi" className="bg-white/5 p-2 rounded hover:bg-accent hover:text-white transition-colors text-gray-300">
               <Instagram className="h-4 w-4" />
             </a>
-            <a href="#" className="bg-white/5 p-2 rounded hover:bg-accent hover:text-white transition-colors text-gray-300">
+            <a href="https://www.linkedin.com/in/jai-ambe-engineering" className="bg-white/5 p-2 rounded hover:bg-accent hover:text-white transition-colors text-gray-300">
               <Linkedin className="h-4 w-4" />
             </a>
           </div>

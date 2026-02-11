@@ -1,10 +1,12 @@
 export function Machinery() {
   const machines = [
     "CNC Lathe Machine",
-    "BMC (VMC) Machine",
+    "VMC Machine",
     "Conventional Lathe Machine",
     "Drill Machine",
     "DRO Milling Machine",
+    "Grinding Machine",
+    "Welding Machine, etc."
   ];
 
   const instruments = [
@@ -35,7 +37,7 @@ export function Machinery() {
             <div className="bg-white/10 p-8 rounded-lg border border-white/10">
               <h3 className="text-2xl font-heading font-bold mb-6 flex items-center gap-3">
                 <span className="w-2 h-8 bg-accent block"></span>
-                Machine Shop
+                Machine
               </h3>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {machines.map((machine) => (

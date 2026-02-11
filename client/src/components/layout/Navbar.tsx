@@ -30,14 +30,14 @@ export function Navbar() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex gap-6">
             <span className="flex items-center gap-2">
-              <Phone className="h-4 w-4 text-accent" /> +91 98765 43210
+              <Phone className="h-4 w-4 text-accent" /> +91 7977664056
             </span>
             <span className="flex items-center gap-2">
-              <Mail className="h-4 w-4 text-accent" /> info@jaiambeengineering.com
+              <Mail className="h-4 w-4 text-accent" /> jaiambeengg2017@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-2">
-            <MapPin className="h-4 w-4 text-accent" /> Ahmedabad, Gujarat, India
+            <MapPin className="h-4 w-4 text-accent" /> Dombivli, Thane, Maharashtra
           </div>
         </div>
       </div>
@@ -45,13 +45,8 @@ export function Navbar() {
       {/* Main Nav */}
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/">
-          <a className="flex flex-col">
-            <span className="font-heading text-2xl font-bold tracking-tighter text-primary">
-              JAI AMBE
-            </span>
-            <span className="text-xs tracking-[0.2em] text-muted-foreground uppercase font-medium">
-              Engineering
-            </span>
+          <a className="flex items-center">
+            <img src="/logo.svg" alt="Jai Ambe Engineering" className="h-12 w-auto" />
           </a>
         </Link>
 
@@ -66,7 +61,7 @@ export function Navbar() {
               {link.name}
             </button>
           ))}
-          <Button 
+          <Button
             className="bg-accent hover:bg-accent/90 text-white font-bold uppercase tracking-wider"
             onClick={() => handleNavClick('#contact')}
           >
@@ -93,7 +88,7 @@ export function Navbar() {
                     {link.name}
                   </button>
                 ))}
-                <Button 
+                <Button
                   className="bg-accent hover:bg-accent/90 text-white font-bold uppercase tracking-wider w-full mt-4"
                   onClick={() => handleNavClick('#contact')}
                 >

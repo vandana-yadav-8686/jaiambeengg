@@ -54,9 +54,9 @@ export function Contact() {
           <div className="bg-primary text-white p-10 rounded-lg shadow-xl relative overflow-hidden">
             <div className="absolute top-0 right-0 w-32 h-32 bg-accent/20 rounded-full -mr-16 -mt-16 blur-2xl" />
             <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/20 rounded-full -ml-16 -mb-16 blur-2xl" />
-            
+
             <h3 className="text-2xl font-heading font-bold mb-8">Contact Information</h3>
-            
+
             <div className="space-y-8 relative z-10">
               <div className="flex items-start gap-4">
                 <div className="bg-accent/20 p-3 rounded-lg text-accent">
@@ -65,8 +65,8 @@ export function Contact() {
                 <div>
                   <h5 className="font-bold text-lg mb-1">Workshop Address</h5>
                   <p className="text-gray-300 leading-relaxed">
-                    [Add your workshop address here]<br/>
-                    Ahmedabad, Gujarat, India
+                    Rishikesh Building Unit Number 1, Lalit Katta, Dombivli, 421201<br />
+                    Thane, Maharashtra
                   </p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h5 className="font-bold text-lg mb-1">Phone Number</h5>
-                  <p className="text-gray-300">+91 98765 43210</p>
+                  <p className="text-gray-300">+91 7977664056</p>
                   <p className="text-gray-400 text-sm">Mon-Sat 9am to 6pm</p>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h5 className="font-bold text-lg mb-1">Email Address</h5>
-                  <p className="text-gray-300">info@jaiambeengineering.com</p>
+                  <p className="text-gray-300">jaiambeengg2017@gmail.com</p>
                 </div>
               </div>
 
@@ -159,10 +159,10 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>Your Requirement</FormLabel>
                       <FormControl>
-                        <Textarea 
-                          placeholder="Describe your job work or spare part requirement..." 
+                        <Textarea
+                          placeholder="Describe your job work or spare part requirement..."
                           className="min-h-[120px] bg-gray-50 border-gray-200 resize-none"
-                          {...field} 
+                          {...field}
                         />
                       </FormControl>
                       <FormMessage />
